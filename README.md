@@ -1,20 +1,20 @@
-                     ______________________________
+______________________________
 
-                      NOTES ON DATASET PREPARATION
+## NOTES ON DATASET PREPARATION
+Christopher Zhang, Ruifeng Hu
+______________________________
 
-                           Christopher Zhang
-                     ______________________________
 
-
-Table of Contents
+## Table of Contents
 _________________
 
-1. Introduction
-2. Data Requirements
-3. Data Organization
-4. Design Reasoning
-5. Scripts
+### 1. Introduction
+### 2. Data Requirements
+### 3. Data Organization
+### 4. Design Reasoning
+### 5. Scripts
 
+-----------------
 
 ## 1 Introduction
 
@@ -120,9 +120,7 @@ _________________
   annotation files may potentially be removed if speed is sufficient.
 
 
-5 Scripts
-=========
-
+## 5 Scripts
   The dataset is constructed through six scripts:
 
   1. *Preprocessing*

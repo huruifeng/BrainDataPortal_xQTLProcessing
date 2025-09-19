@@ -2,9 +2,10 @@ import json
 from pathlib import Path
 import sys
 
+dataset_name = "eQTLsummary_demo"
 
-directory = Path("filtered_celltypes").resolve()
-output_file = Path("celltype_mapping.json").resolve()
+directory = Path(dataset_name + "/filtered_celltypes").resolve()
+output_file = Path( dataset_name + "/celltype_parquet.json").resolve()
 mapping = {}
 
 if not directory.is_dir():

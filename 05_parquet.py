@@ -1,11 +1,13 @@
 import polars as pl
 from pathlib import Path
 
+dataset_name = "eQTLsummary_demo"
 
+# List all TSV files in the specified directories
 tsv_files = (
-    list(Path("celltypes").glob("*.tsv"))
-    + list(Path("gene_locations").glob("*.tsv"))
-    + list(Path("snp_locations").glob("*.tsv"))
+    list(Path(f"{dataset_name}/celltypes").glob("*.tsv"))
+    + list(Path(f"{dataset_name}/gene_locations").glob("*.tsv"))
+    + list(Path(f"{dataset_name}/snp_locations").glob("*.tsv"))
 )
 
 for tsv_file in tsv_files:
